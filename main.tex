@@ -1,0 +1,51 @@
+%%
+% University of Regina Assignment Template ``main.tex''
+%
+% Author: Ayon Khan <ayonkhan AT gmail.com>
+% Date: 2022/03/09
+%
+% License: CC BY 4.0
+% License URL: https://creativecommons.org/licenses/by/4.0/
+%%
+
+\documentclass{uofr-assignment}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[autostyle]{csquotes}
+% \usepackage{xcolor} % Uncomment it if needed
+% \usepackage{caption} % Uncomment it if needed
+% \usepackage{subcaption} % Uncomment it if needed
+% \usepackage{tabularx} % Uncomment it if needed
+% \usepackage{makecell} % Uncomment it if needed
+% \usepackage{lipsum} % Uncomment it if needed
+\usepackage{blindtext} % For demonstration purposes only; remove or comment it out
+
+\usepackage[style=alphabetic,sorting=nty]{biblatex}
+\addbibresource{references.bib}
+
+% Start of change the values
+\title{U of R Assignment Template (Unofficial)}
+\author{John Doe}
+\date{March 09, 2022}
+\studentid{XXXXXXXXX}
+\coursecode{Course Code}
+\coursename{Course Name}
+\articletype{Assignment 1}
+\faculty{Faculty of Graduate Studies \& Research}
+\department{Department of Computer Science}
+% End of change the values
+
+\begin{document}
+    \maketitle
+    
+    \clearpage
+    \setcounter{page}{1}
+    
+    \section{Section 01}
+    \input{sections/section-01}
+    
+    \clearpage
+    \fancyfoot{}
+    \printbibliography[heading=bibintoc, title={Bibliography}]
+\end{document}
