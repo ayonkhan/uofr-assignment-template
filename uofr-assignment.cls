@@ -68,9 +68,14 @@
             \large
             \@articletype
             
-            \rule{\linewidth}{0.2 mm} \\[0.4 cm]
-            { \huge \bfseries \@title}\\
-            \rule{\linewidth}{0.2 mm} \\
+            \rule{\linewidth}{0.2mm}
+            
+            \vspace*{0.4cm}
+            
+            \huge
+            \textbf{\@title}
+            
+            \rule{\linewidth}{0.2mm}
             
             \vspace*{1cm}
             
@@ -87,8 +92,8 @@
         
         \begin{flushright}
             \small
-		    \@faculty\\
-		    \@department
-		\end{flushright}
+            \@faculty\\
+            \@department
+        \end{flushright}
     \end{titlepage}
 }
