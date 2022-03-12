@@ -25,10 +25,10 @@
 \RequirePackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhead{}
-% \fancyhead[C]{\@title}
+% \fancyhead[C]{{\small}{\@title}}
 \fancyfoot{}
-\fancyfoot[L]{\@title}
-\fancyfoot[R]{\thepage}
+\fancyfoot[L]{\small{\@title}}
+\fancyfoot[R]{\small{\thepage}}
 \renewcommand{\headrulewidth}{0pt}
 
 \RequirePackage{hyperref}
