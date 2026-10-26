@@ -2,7 +2,7 @@
 
 This is an unofficial LaTeX (pronounced either "Lah-tech" or "Lay-tech") assignment template for the students of the [University of Regina](https://www.uregina.ca) (U of R).
 
-[Demo](https://uploads.ayonkhan.me/file/baquet/uofr-assignment-template/demo.pdf)
+[Demo](demo.pdf)
 
 **>> Please consult with your teacher or supervisor before using the template. <<**
 
@@ -17,7 +17,7 @@ However, I would suggest an online editor like [Overleaf](https://www.overleaf.c
 
 ## Author
 
-- Ayon Khan | [GitHub](https://github.com/ayonkhan) | [Twitter](https://twitter.com/ayonkhan) | [ayonkhan.me](https://www.ayonkhan.me)
+- Ayon Khan | [GitHub](https://github.com/ayonkhan) | [Twitter](https://twitter.com/ayonkhan) | [ayonkhan.ca](https://www.ayonkhan.ca)
 
 ## Contributing
 
